@@ -1,14 +1,14 @@
 {
   "name": "home",
-  "author": "imsyy",
-  "github": "https://github.com/imsyy/home",
-  "home": "https://imsyy.top",
+  "author": "weihang",
+  "github": "https://github.com/WSDS1996/homePage",
+  "home": "https://desiretree.top",
   "private": true,
   "version": "4.1.4",
   "type": "module",
   "scripts": {
-    "dev": "vite --host",
-    "build": "vite build",
+    "dev": "vite --host --mode example",
+    "build": "vite build --mode prod",
     "preview": "vite preview",
     "format": "prettier --write src/",
     "lint": "eslint . --ext .js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts,.vue --fix"
