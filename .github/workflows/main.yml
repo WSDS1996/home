@@ -25,12 +25,14 @@ jobs:
       - name: Install Node.js
         uses: actions/setup-node@v1
         with:
-          node-version: '16.15.0'
+          node-version: '18.10.0'
 
       - name: Install npm dependencies and build
         run: |
-          npm ci
-          npm run build
+          npm config set registry http://mirrors.cloud.tencent.com/npm/
+          npm install pnpm
+          pnpm i
+          pnpm run build
 
       - name: SSH Server Deploy
         uses: kostya-ten/ssh-server-deploy@v4
