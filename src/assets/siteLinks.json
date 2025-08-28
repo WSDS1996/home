@@ -18,5 +18,10 @@
     "icon": "Compass",
     "name": "站点检测",
     "link": "https://sitestatus.desiretree.top/"
+  },
+  {
+    "icon": "PhotoVideo",
+    "name": "时光相册",
+    "link": "https://xc.desiretree.top/"
   }
 ]
