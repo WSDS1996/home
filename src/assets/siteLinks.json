@@ -23,5 +23,10 @@
     "icon": "PhotoVideo",
     "name": "时光相册",
     "link": "https://xc.desiretree.top/"
+  },
+  {
+    "icon": "Tools",
+    "name": "AI工具箱",
+    "link": "https://aitools.desiretree.top/"
   }
 ]
